@@ -1,0 +1,46 @@
+{
+  "name": "operation-aegis",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:electron": "npm run build && electron-builder --win"
+  },
+  "dependencies": {
+    "lucide-react": "^0.428.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^44.3.0",
+    "electron-builder": "^26.15.3",
+    "puppeteer": "^25.10.0",
+    "vite": "^5.3.4"
+  },
+  "main": "electron-main.cjs",
+  "author": "Aegis Team",
+  "description": "AI-Based Personnel Stress & Welfare Monitoring Platform for Uniformed Services",
+  "build": {
+    "appId": "com.operation.aegis",
+    "productName": "Operation Aegis",
+    "directories": {
+      "output": "C:/Users/ashut/Downloads/Aegis_Release"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    },
+    "files": [
+      "dist/**/*",
+      "electron-main.cjs"
+    ]
+  }
+}

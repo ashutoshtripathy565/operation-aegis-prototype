@@ -1,0 +1,1164 @@
+{
+  "src\\components\\AppShell.jsx": [
+    {
+      "line": 131,
+      "text": "border: '1px solid var(--status-critical)',"
+    },
+    {
+      "line": 204,
+      "text": "background: 'var(--status-critical)',"
+    }
+  ],
+  "src\\context\\AegisContext.jsx": [
+    {
+      "line": 31,
+      "text": "lastMission: \"Field Deployment (12 days ago)\","
+    },
+    {
+      "line": 35,
+      "text": "cri: 88,"
+    },
+    {
+      "line": 39,
+      "text": "deploymentStatus: \"Deployed\","
+    },
+    {
+      "line": 41,
+      "text": "lastPatrol: \"07 Jul 2026\","
+    },
+    {
+      "line": 74,
+      "text": "lastMission: \"Field Deployment (12 days ago)\","
+    },
+    {
+      "line": 78,
+      "text": "cri: 91,"
+    },
+    {
+      "line": 82,
+      "text": "deploymentStatus: \"Deployed\","
+    },
+    {
+      "line": 84,
+      "text": "lastPatrol: \"07 Jul 2026\","
+    },
+    {
+      "line": 117,
+      "text": "lastMission: \"Field Deployment (12 days ago)\","
+    },
+    {
+      "line": 121,
+      "text": "cri: 84,"
+    },
+    {
+      "line": 125,
+      "text": "deploymentStatus: \"Deployed\","
+    },
+    {
+      "line": 127,
+      "text": "lastPatrol: \"07 Jul 2026\","
+    },
+    {
+      "line": 128,
+      "text": "lastDuty: \"08 Jul 2026 · Recce Patrol\","
+    },
+    {
+      "line": 160,
+      "text": "lastMission: \"Field Deployment (12 days ago)\","
+    },
+    {
+      "line": 164,
+      "text": "cri: 82,"
+    },
+    {
+      "line": 168,
+      "text": "deploymentStatus: \"Deployed\","
+    },
+    {
+      "line": 170,
+      "text": "lastPatrol: \"06 Jul 2026\","
+    },
+    {
+      "line": 203,
+      "text": "lastMission: \"Field Deployment (12 days ago)\","
+    },
+    {
+      "line": 207,
+      "text": "cri: 71,"
+    },
+    {
+      "line": 211,
+      "text": "deploymentStatus: \"Standby\","
+    },
+    {
+      "line": 213,
+      "text": "lastPatrol: \"05 Jul 2026\","
+    },
+    {
+      "line": 246,
+      "text": "lastMission: \"Field Deployment (12 days ago)\","
+    },
+    {
+      "line": 250,
+      "text": "cri: 80,"
+    },
+    {
+      "line": 254,
+      "text": "deploymentStatus: \"Deployed\","
+    },
+    {
+      "line": 256,
+      "text": "lastPatrol: \"07 Jul 2026\","
+    },
+    {
+      "line": 289,
+      "text": "lastMission: \"Field Deployment (12 days ago)\","
+    },
+    {
+      "line": 293,
+      "text": "cri: 78,"
+    },
+    {
+      "line": 297,
+      "text": "deploymentStatus: \"Deployed\","
+    },
+    {
+      "line": 299,
+      "text": "lastPatrol: \"07 Jul 2026\","
+    },
+    {
+      "line": 332,
+      "text": "lastMission: \"Field Deployment (12 days ago)\","
+    },
+    {
+      "line": 336,
+      "text": "cri: 68,"
+    },
+    {
+      "line": 340,
+      "text": "deploymentStatus: \"Rest Cycle\","
+    },
+    {
+      "line": 342,
+      "text": "lastPatrol: \"04 Jul 2026\","
+    },
+    {
+      "line": 375,
+      "text": "lastMission: \"None\","
+    },
+    {
+      "line": 379,
+      "text": "cri: 70,"
+    },
+    {
+      "line": 383,
+      "text": "deploymentStatus: \"Training\","
+    },
+    {
+      "line": 385,
+      "text": "lastPatrol: \"—\","
+    },
+    {
+      "line": 386,
+      "text": "lastDuty: \"07 Jul 2026 · Weapons Drill\","
+    },
+    {
+      "line": 418,
+      "text": "lastMission: \"Field Deployment (12 days ago)\","
+    },
+    {
+      "line": 422,
+      "text": "cri: 79,"
+    },
+    {
+      "line": 426,
+      "text": "deploymentStatus: \"Deployed\","
+    },
+    {
+      "line": 428,
+      "text": "lastPatrol: \"07 Jul 2026\","
+    },
+    {
+      "line": 461,
+      "text": "lastMission: \"None\","
+    },
+    {
+      "line": 465,
+      "text": "cri: 65,"
+    },
+    {
+      "line": 469,
+      "text": "deploymentStatus: \"Training\","
+    },
+    {
+      "line": 471,
+      "text": "lastPatrol: \"—\","
+    },
+    {
+      "line": 593,
+      "text": "deploymentHistory: {"
+    },
+    {
+      "line": 596,
+      "text": "currentDeploymentDays: soldier.deploymentStatus === 'Deployed' ? (seed * 12) % 60 + 5 : 0,"
+    },
+    {
+      "line": 638,
+      "text": "cri: 91,"
+    },
+    {
+      "line": 647,
+      "text": "cri: 88,"
+    },
+    {
+      "line": 656,
+      "text": "cri: 84,"
+    },
+    {
+      "line": 665,
+      "text": "cri: 82,"
+    },
+    {
+      "line": 674,
+      "text": "cri: 71,"
+    },
+    {
+      "line": 683,
+      "text": "{ timestamp: '2026-08-09T21:05:12Z', user: 'JC-472118K', action: 'Completed daily readiness assessment. Generated CRI: 91.' }"
+    },
+    {
+      "line": 690,
+      "text": "restingHR:  { warnHigh: 100, critHigh: 120, warnLow: 45, critLow: 38, unit: 'BPM',  label: 'Resting Heart Rate' },"
+    },
+    {
+      "line": 692,
+      "text": "hrv:        { warnLow: 30,   critLow: 20,                             unit: 'ms',   label: 'Heart Rate Variability' },"
+    },
+    {
+      "line": 706,
+      "text": "if (restingHeartRate >= t.critHigh) {"
+    },
+    {
+      "line": 707,
+      "text": "violations.push({ key: 'restingHR', label: t.label, value: restingHeartRate, unit: t.unit, severity: 'critical', message: `Critically elevated resting HR: ${restingHeartRate} BPM (threshold ≥${t.critHigh})` });"
+    },
+    {
+      "line": 710,
+      "text": "} else if (restingHeartRate <= t.critLow) {"
+    },
+    {
+      "line": 711,
+      "text": "violations.push({ key: 'restingHR', label: t.label, value: restingHeartRate, unit: t.unit, severity: 'critical', message: `Critically low resting HR: ${restingHeartRate} BPM (threshold ≤${t.critLow})` });"
+    },
+    {
+      "line": 720,
+      "text": "if (spO2Val <= t.critLow) {"
+    },
+    {
+      "line": 721,
+      "text": "violations.push({ key: 'spO2', label: t.label, value: spO2Val, unit: t.unit, severity: 'critical', message: `Critical hypoxemia: SpO₂ ${spO2Val}% (threshold ≤${t.critLow}%)` });"
+    },
+    {
+      "line": 729,
+      "text": "if (hrv <= t.critLow) {"
+    },
+    {
+      "line": 730,
+      "text": "violations.push({ key: 'hrv', label: t.label, value: hrv, unit: t.unit, severity: 'critical', message: `Critical HRV suppression: ${hrv} ms (threshold ≤${t.critLow} ms)` });"
+    },
+    {
+      "line": 739,
+      "text": "if (sleepVal <= t.critLow) {"
+    },
+    {
+      "line": 740,
+      "text": "violations.push({ key: 'sleepHours', label: t.label, value: sleepVal, unit: t.unit, severity: 'critical', message: `Critical sleep deficit: ${sleepVal} hrs (threshold ≤${t.critLow} hrs)` });"
+    },
+    {
+      "line": 771,
+      "text": "description: factorDescBad"
+    },
+    {
+      "line": 776,
+      "text": "description: factorDescGood"
+    },
+    {
+      "line": 800,
+      "text": "// 2. Deployment / Operational Exposure (20%)"
+    },
+    {
+      "line": 802,
+      "text": "const { daysDeployedLast12Months, consecutiveOperationalDays } = soldier.deploymentHistory;"
+    },
+    {
+      "line": 811,
+      "text": "\"High operational tempo and prolonged deployment exposure.\","
+    },
+    {
+      "line": 868,
+      "text": "// If no live biometrics are attached to the soldier directly, we can use CRI as a loose physiological proxy"
+    },
+    {
+      "line": 871,
+      "text": "if (soldier.cri != null) {"
+    },
+    {
+      "line": 872,
+      "text": "bRisk = soldier.cri < 60 ? 0.8 : (soldier.cri < 75 ? 0.4 : 0.1);"
+    },
+    {
+      "line": 892,
+      "text": "if (finalRiskScore >= 80) riskBand = 'CRITICAL WELFARE RISK';"
+    },
+    {
+      "line": 914,
+      "text": "const [activeMissions, setActiveMissions] = useState([]);"
+    },
+    {
+      "line": 954,
+      "text": "return { success: false, message: 'Secure server authentication is required for this deployment.' };"
+    },
+    {
+      "line": 1038,
+      "text": "// CRI = Physical (50) + Cognitive (25) + Operational (20) + Environmental (5)"
+    },
+    {
+      "line": 1065,
+      "text": "const welfareCriticalCount = soldiers.filter(s => s.wellness?.welfareRisk === 'CRITICAL WELFARE RISK').length;"
+    },
+    {
+      "line": 1066,
+      "text": "const avgCRI = Math.round(soldiers.reduce((acc, s) => acc + s.cri, 0) / soldiers.length);"
+    },
+    {
+      "line": 1083,
+      "text": "cri: s.cri,"
+    },
+    {
+      "line": 1093,
+      "text": "welfareCritical: welfareCriticalCount,"
+    },
+    {
+      "line": 1095,
+      "text": "criticalCount,"
+    },
+    {
+      "line": 1143,
+      "text": "const calculateCRI = (scores) => {"
+    },
+    {
+      "line": 1145,
+      "text": "const cri = physical + cognitive + operational + environmental;"
+    },
+    {
+      "line": 1146,
+      "text": "return Math.min(100, Math.max(0, Math.round(cri)));"
+    },
+    {
+      "line": 1152,
+      "text": "if (score >= 90) return { label: 'Mission Ready', class: 'ready', color: '#16a34a', glow: 'var(--status-ready-glow)' };"
+    },
+    {
+      "line": 1156,
+      "text": "return { label: 'Critical', class: 'critical', color: '#dc2626', glow: 'var(--status-critical-glow)' };"
+    },
+    {
+      "line": 1233,
+      "text": "const newCRI = calculateCRI(scores);"
+    },
+    {
+      "line": 1242,
+      "text": "cri: newCRI,"
+    },
+    {
+      "line": 1243,
+      "text": "dci: newDCI,"
+    },
+    {
+      "line": 1261,
+      "text": "cri: newCRI,"
+    },
+    {
+      "line": 1262,
+      "text": "dci: newDCI,"
+    },
+    {
+      "line": 1280,
+      "text": "addAuditLog(soldierId, `Completed readiness assessment. CRI: ${newCRI}`);"
+    },
+    {
+      "line": 1282,
+      "text": "return { cri: newCRI, dci: newDCI };"
+    },
+    {
+      "line": 1297,
+      "text": "deviceType, // 'health_connect' | 'tactical_band'"
+    },
+    {
+      "line": 1358,
+      "text": "// Suitability Score MRS Calculation based on Mission Parameters from simulatorService.ts"
+    },
+    {
+      "line": 1364,
+      "text": "const { duration = 8, load = 'standard', temp = 22, terrain = 'plains' } = missionParams;"
+    },
+    {
+      "line": 1382,
+      "text": "// Gear load mods"
+    },
+    {
+      "line": 1437,
+      "text": "if (soldier.cri >= 90) return 'Soldier readiness parameters are optimal. Clearing for tactical patrols.';"
+    },
+    {
+      "line": 1438,
+      "text": "if (soldier.cri >= 75) return 'Cleared for standard duty. Suggest monitoring hydration during extended patrols.';"
+    },
+    {
+      "line": 1439,
+      "text": "if (soldier.cri >= 60) return 'Monitor fatigue levels closely. Increase sleep window and rest recovery before deployment.';"
+    },
+    {
+      "line": 1479,
+      "text": "const highestSeverity = violations.some(v => v.severity === 'critical') ? 'critical' : 'warning';"
+    },
+    {
+      "line": 1481,
+      "text": "? `CRITICAL biometric alert from ${soldier.rank} ${soldier.name} — wearable data requires immediate review.`"
+    },
+    {
+      "line": 1485,
+      "text": "{ id: Date.now(), text: notifText, type: highestSeverity === 'critical' ? 'alert' : 'warning', time: 'just now' },"
+    },
+    {
+      "line": 1526,
+      "text": "activeMissions,"
+    },
+    {
+      "line": 1540,
+      "text": "calculateCRI,"
+    },
+    {
+      "line": 1549,
+      "text": "setActiveMissions,"
+    }
+  ],
+  "src\\index.css": [
+    {
+      "line": 16,
+      "text": "--status-ready: #16a34a;       /* Mission Ready: Green */"
+    },
+    {
+      "line": 24,
+      "text": "--status-critical: #dc2626;    /* Critical: Red */"
+    },
+    {
+      "line": 105,
+      "text": "/* Flashy effects disabled except for critical warnings */"
+    },
+    {
+      "line": 110,
+      "text": "@keyframes criticalPulse {"
+    },
+    {
+      "line": 116,
+      "text": ".critical-warning-active {"
+    },
+    {
+      "line": 117,
+      "text": "border: 1.5px solid var(--status-critical) !important;"
+    },
+    {
+      "line": 126,
+      "text": "/* Cyber-style buttons flattened to clean tactical buttons */"
+    },
+    {
+      "line": 171,
+      "text": "/* Tactical Forms */"
+    }
+  ],
+  "src\\pages\\AdminDashboard.jsx": [
+    {
+      "line": 202,
+      "text": "style={{ borderColor: 'var(--status-critical)', color: 'var(--status-critical)', padding: '3px 8px', fontSize: '11px' }}"
+    },
+    {
+      "line": 294,
+      "text": "<li>Create a Google OAuth web client and add <code>http://127.0.0.1:5173</code> as an authorized JavaScript origin.</li>"
+    }
+  ],
+  "src\\pages\\CommanderDashboard.jsx": [
+    {
+      "line": 11,
+      "text": "getMRSScore, getDCIDetails, updateMedicalCategory,"
+    },
+    {
+      "line": 16,
+      "text": "const [activeSubTab, setActiveSubTab] = useState('summary'); // summary, personnel, mission, profile"
+    },
+    {
+      "line": 37,
+      "text": "welfareCritical,"
+    },
+    {
+      "line": 39,
+      "text": "avgCRI,"
+    },
+    {
+      "line": 48,
+      "text": "const sectionStatus = criticalCount > 0 ? 'RESTRICTED' : avgCRI >= 75 ? 'READY' : 'DEGRADED';"
+    },
+    {
+      "line": 56,
+      "text": "const getCRIHistoryPoints = () => {"
+    },
+    {
+      "line": 64,
+      "text": "return sh.map(h => h.cri);"
+    },
+    {
+      "line": 68,
+      "text": "const trendPoints = getCRIHistoryPoints();"
+    },
+    {
+      "line": 115,
+      "text": "// Calculate baseline average CRI"
+    },
+    {
+      "line": 116,
+      "text": "const baseline = Math.round(team.reduce((acc, s) => acc + s.cri, 0) / team.length);"
+    },
+    {
+      "line": 120,
+      "text": "const missionMods = { patrol: 0, reconnaissance: -3, \"border-security\": -4, \"search-rescue\": -6, \"operational-readiness-exercise\": -8 };"
+    },
+    {
+      "line": 122,
+      "text": "const priorityMods = { low: 2, medium: 0, high: -2, critical: -5 };"
+    },
+    {
+      "line": 131,
+      "text": "if (missionDuration <= 2) durationMod = 2;"
+    },
+    {
+      "line": 133,
+      "text": "else if (missionDuration <= 6) durationMod = -2;"
+    },
+    {
+      "line": 135,
+      "text": "else if (missionDuration <= 12) durationMod = -10;"
+    },
+    {
+      "line": 139,
+      "text": "terrainMods[missionTerrain] +"
+    },
+    {
+      "line": 142,
+      "text": "weatherMods[missionWeather] +"
+    },
+    {
+      "line": 144,
+      "text": "timeMods[missionTime] +"
+    },
+    {
+      "line": 146,
+      "text": "envMods[missionEnv] +"
+    },
+    {
+      "line": 148,
+      "text": "commsMods[missionComms] +"
+    },
+    {
+      "line": 155,
+      "text": "const critList = team.filter(s => s.cri < 60);"
+    },
+    {
+      "line": 156,
+      "text": "const monList = team.filter(s => s.cri >= 60 && s.cri < 70);"
+    },
+    {
+      "line": 159,
+      "text": "if (finalReadiness < 55 || critList.length >= 2) riskWeight = 12;"
+    },
+    {
+      "line": 160,
+      "text": "else if (finalReadiness < 70 || critList.length >= 1) riskWeight = 6;"
+    },
+    {
+      "line": 168,
+      "text": "fatigue: missionDuration + Math.abs(terrainMods[missionTerrain]) >= 20 ? 'SEVERE' : missionDuration + Math.abs(terrainMods[missionTerrain]) >= 14 ? 'HIGH' : 'MODERATE',"
+    },
+    {
+      "line": 170,
+      "text": "risk: finalReadiness < 55 || critList.length >= 2 ? 'HIGH' : finalReadiness < 70 || critList.length >= 1 ? 'MODERATE' : 'LOW',"
+    },
+    {
+      "line": 172,
+      "text": "finalReadiness >= 70 ? `Section CRI (${finalReadiness}) above deployment threshold.` : `Section CRI (${finalReadiness}) below optimal deployment threshold.`,"
+    },
+    {
+      "line": 173,
+      "text": "critList.length === 0 ? \"No critically impaired personnel detected.\" : `${critList.length} critically impaired personnel present.`,"
+    },
+    {
+      "line": 177,
+      "text": "critList.length > 0 ? `Exclude ${critList[0].rank} ${critList[0].name} from this mission.` : `Suitable for the modelled mission profile.`,"
+    },
+    {
+      "line": 178,
+      "text": "missionTerrain === 'mountain' ? \"Ensure high-altitude thermal gear checks.\" : \"Ensure standard hydration checks.\""
+    },
+    {
+      "line": 187,
+      "text": "const teamStatusColor = teamMRS >= 85 ? 'var(--status-ready)' : teamMRS >= 70 ? 'var(--status-teal)' : teamMRS >= 55 ? 'var(--status-monitor)' : 'var(--status-critical)';"
+    },
+    {
+      "line": 197,
+      "text": "const handleSaveMission = () => {"
+    },
+    {
+      "line": 198,
+      "text": "addAuditLog('commander', `Saved Mission simulation roster: ${missionName}. Avg MRS suitability: ${teamMRS}%.`);"
+    },
+    {
+      "line": 256,
+      "text": "{welfareHigh + welfareCritical}"
+    },
+    {
+      "line": 258,
+      "text": "<span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>High & Critical Risk</span>"
+    },
+    {
+      "line": 282,
+      "text": "<span style={{ fontSize: '14px', color: welfareHigh + welfareCritical > 2 ? 'var(--status-monitor)' : 'var(--status-ready)', fontWeight: 'bold' }}>"
+    },
+    {
+      "line": 291,
+      "text": "<span style={{ fontSize: '11px', color: 'var(--text-secondary)', textTransform: 'uppercase' }}>Critical Welfare Risk</span>"
+    },
+    {
+      "line": 292,
+      "text": "<span className=\"text-mono\" style={{ fontSize: '16px', color: welfareCritical > 0 ? 'var(--status-critical)' : 'var(--text-primary)' }}>{welfareCritical} personnel</span>"
+    },
+    {
+      "line": 387,
+      "text": "const band = getReadinessBand(s.cri);"
+    },
+    {
+      "line": 428,
+      "text": "const sBand = getReadinessBand(soldier.cri);"
+    },
+    {
+      "line": 480,
+      "text": "{/* Section 3: CRI Pillar Breakdown */}"
+    },
+    {
+      "line": 482,
+      "text": "<h4 className=\"text-mono\" style={{ fontSize: '12px', color: 'var(--accent-cyan)', marginBottom: 12 }}>3. CRI Domain Scores Breakdown</h4>"
+    },
+    {
+      "line": 512,
+      "text": "<th style={{ textAlign: 'center', paddingBottom: 6 }}>CRI</th>"
+    },
+    {
+      "line": 521,
+      "text": "<td style={{ padding: '8px 0', textAlign: 'center', fontWeight: 'bold' }} className=\"text-mono\">{h.cri}</td>"
+    },
+    {
+      "line": 522,
+      "text": "<td style={{ padding: '8px 0', textAlign: 'center', color: 'var(--accent-cyan)' }} className=\"text-mono\">{h.dci}%</td>"
+    },
+    {
+      "line": 524,
+      "text": "{getReadinessBand(h.cri).label}"
+    },
+    {
+      "line": 541,
+      "text": "{soldier.cri}"
+    },
+    {
+      "line": 578,
+      "text": "{/* MISSION PLANNING SIMULATOR */}"
+    },
+    {
+      "line": 579,
+      "text": "{activeSubTab === 'mission' && ("
+    },
+    {
+      "line": 585,
+      "text": "<h3 className=\"text-mono\" style={{ fontSize: '14px', color: 'var(--text-primary)' }}>TACTICAL MISSION PLANNER</h3>"
+    },
+    {
+      "line": 587,
+      "text": "{missionStep === 1 && 'Step 1: Mission Parameters Setup'}"
+    },
+    {
+      "line": 589,
+      "text": "{missionStep === 6 && 'Step 6: Roster Suitability Output'}"
+    },
+    {
+      "line": 590,
+      "text": "{missionStep === 8 && 'Squad Roster Deployment Confirmed'}"
+    },
+    {
+      "line": 598,
+      "text": "{/* STEP 1: MISSION CONFIG */}"
+    },
+    {
+      "line": 606,
+      "text": "<label className=\"text-mono\" style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>MISSION OPERATION NAME</label>"
+    },
+    {
+      "line": 611,
+      "text": "<label className=\"text-mono\" style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>MISSION TYPE</label>"
+    },
+    {
+      "line": 613,
+      "text": "<option value=\"patrol\">Perimeter Patrol</option>"
+    },
+    {
+      "line": 623,
+      "text": "<select className=\"input-cyber\" value={missionTerrain} onChange={(e) => setMissionTerrain(e.target.value)}>"
+    },
+    {
+      "line": 634,
+      "text": "<select className=\"input-cyber\" value={missionWeather} onChange={(e) => setMissionWeather(e.target.value)}>"
+    },
+    {
+      "line": 644,
+      "text": "<label className=\"text-mono\" style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>GEAR LOAD TYPE</label>"
+    },
+    {
+      "line": 658,
+      "text": "<label className=\"text-mono\" style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>MISSION DURATION (HOURS: 1 - 24)</label>"
+    },
+    {
+      "line": 662,
+      "text": "value={missionDuration}"
+    },
+    {
+      "line": 663,
+      "text": "onChange={(e) => setMissionDuration(parseInt(e.target.value))}"
+    },
+    {
+      "line": 671,
+      "text": "<select className=\"input-cyber\" value={missionThreat} onChange={(e) => setMissionThreat(e.target.value)}>"
+    },
+    {
+      "line": 680,
+      "text": "<select className=\"input-cyber\" value={missionEnv} onChange={(e) => setMissionEnv(e.target.value)}>"
+    },
+    {
+      "line": 689,
+      "text": "<select className=\"input-cyber\" value={missionComms} onChange={(e) => setMissionComms(e.target.value)}>"
+    },
+    {
+      "line": 697,
+      "text": "<select className=\"input-cyber\" value={missionMedical} onChange={(e) => setMissionMedical(e.target.value)}>"
+    },
+    {
+      "line": 706,
+      "text": "<button onClick={() => setMissionStep(5)} className=\"btn-cyber-primary\">"
+    },
+    {
+      "line": 715,
+      "text": "{missionStep === 5 && ("
+    },
+    {
+      "line": 750,
+      "text": "CRI: {s.cri}"
+    },
+    {
+      "line": 757,
+      "text": "<button onClick={() => setMissionStep(1)} className=\"btn-cyber\">Back</button>"
+    },
+    {
+      "line": 766,
+      "text": "{missionStep === 6 && ("
+    },
+    {
+      "line": 779,
+      "text": "<h2 style={{ fontSize: '22px', fontWeight: 'bold' }}>Projected Squad CRI: <span className=\"text-mono\" style={{ color: teamStatusColor }}>{teamMRS}</span></h2>"
+    },
+    {
+      "line": 781,
+      "text": "Success Probability: <strong style={{ color: 'var(--accent-cyan)' }}>{currentAnalysis.successProbability}%</strong> // Threat: {missionThreat.toUpperCase()}"
+    },
+    {
+      "line": 837,
+      "text": "<strong className=\"text-mono\">{missionDuration}h</strong>"
+    },
+    {
+      "line": 843,
+      "text": "value={missionDuration}"
+    },
+    {
+      "line": 844,
+      "text": "onChange={(e) => setMissionDuration(parseInt(e.target.value))}"
+    },
+    {
+      "line": 852,
+      "text": "<strong className=\"text-mono\">{missionTerrain}</strong>"
+    },
+    {
+      "line": 856,
+      "text": "value={missionTerrain}"
+    },
+    {
+      "line": 857,
+      "text": "onChange={(e) => setMissionTerrain(e.target.value)}"
+    },
+    {
+      "line": 871,
+      "text": "<button onClick={() => setMissionStep(5)} className=\"btn-cyber\" style={{ width: '100%' }}>Modify Team</button>"
+    },
+    {
+      "line": 881,
+      "text": "{missionStep === 8 && ("
+    },
+    {
+      "line": 899,
+      "text": "The operation squad has been configured and deployment logs generated."
+    },
+    {
+      "line": 905,
+      "text": "<span>Mission:</span>"
+    },
+    {
+      "line": 910,
+      "text": "<strong style={{ color: teamStatusColor }}>{teamMRS}% CRI</strong>"
+    },
+    {
+      "line": 962,
+      "text": "{/* CRI Breakdown */}"
+    },
+    {
+      "line": 965,
+      "text": "<h4 className=\"text-mono\" style={{ fontSize: '11px', color: 'var(--accent-cyan)', marginBottom: 8 }}>CRI DOMAIN VALUES</h4>"
+    },
+    {
+      "line": 975,
+      "text": "<span className=\"text-mono\" style={{ fontSize: '9px', color: 'var(--text-muted)' }}>CRI SCORE</span>"
+    },
+    {
+      "line": 976,
+      "text": "<h2 className=\"text-mono\" style={{ fontSize: '28px', fontWeight: '900', color: getReadinessBand(quickViewSoldier.cri).color }}>"
+    },
+    {
+      "line": 979,
+      "text": "<span className=\"text-mono\" style={{ fontSize: '10px', color: getReadinessBand(quickViewSoldier.cri).color, fontWeight: 'bold' }}>"
+    }
+  ],
+  "src\\pages\\Home.jsx": [
+    {
+      "line": 126,
+      "text": "<span className=\"text-mono\" style={{ fontSize: '8px', color: 'var(--text-muted)' }}>CRI</span>"
+    },
+    {
+      "line": 134,
+      "text": "MISSION ANALYSIS"
+    },
+    {
+      "line": 167,
+      "text": "<h3 className=\"text-mono\" style={{ fontSize: '14px', marginBottom: 10, color: 'var(--accent-cyan)' }}>Mission Readiness Analysis</h3>"
+    },
+    {
+      "line": 191,
+      "text": "{ num: '3', title: 'Calculate', desc: 'CRI, MRS and DCI indices computed automatically.' },"
+    },
+    {
+      "line": 212,
+      "text": "CRI is calculated using fixed research-backed weighting ratios (100 points total)."
+    }
+  ],
+  "src\\pages\\Login.jsx": [
+    {
+      "line": 103,
+      "text": "border: '1px solid var(--status-critical)',"
+    },
+    {
+      "line": 110,
+      "text": "color: 'var(--status-critical)',"
+    }
+  ],
+  "src\\pages\\MedicalDashboard.jsx": [
+    {
+      "line": 10,
+      "text": "sev === 'critical' ? 'var(--status-critical)' : 'var(--status-monitor)';"
+    },
+    {
+      "line": 13,
+      "text": "sev === 'critical' ? 'rgba(220,38,38,0.05)' : 'rgba(217,119,6,0.05)';"
+    },
+    {
+      "line": 45,
+      "text": "const flaggedSoldiers = soldiers.filter(s => s.cri < 75 || s.alerts.length > 0);"
+    },
+    {
+      "line": 96,
+      "text": "background: 'var(--status-critical)',"
+    },
+    {
+      "line": 158,
+      "text": "border: '1px solid var(--status-critical)',"
+    },
+    {
+      "line": 173,
+      "text": "color: 'var(--status-critical)',"
+    },
+    {
+      "line": 174,
+      "text": "border: '1px solid var(--status-critical)', borderRadius: '4px'"
+    },
+    {
+      "line": 193,
+      "text": "? 'var(--status-critical)'"
+    },
+    {
+      "line": 197,
+      "text": "const spo2Flag = spo2Val != null && spo2Val <= 90 ? 'var(--status-critical)'"
+    },
+    {
+      "line": 199,
+      "text": "const hrvFlag  = wr?.hrv != null && wr.hrv <= 20 ? 'var(--status-critical)'"
+    },
+    {
+      "line": 202,
+      "text": "const sleepFlag = sleepVal != null && sleepVal <= 4 ? 'var(--status-critical)'"
+    },
+    {
+      "line": 276,
+      "text": "border: '1px solid var(--status-critical)',"
+    },
+    {
+      "line": 278,
+      "text": "color: 'var(--status-critical)', fontSize: '13px',"
+    },
+    {
+      "line": 340,
+      "text": "style={{ width: '100%', borderColor: 'var(--status-critical)', color: 'var(--status-critical)' }}"
+    },
+    {
+      "line": 396,
+      "text": "const hasCritical = c.violations.some(v => v.severity === 'critical');"
+    },
+    {
+      "line": 399,
+      "text": "? 'var(--status-critical)'"
+    },
+    {
+      "line": 412,
+      "text": ": hasCritical ? 'var(--status-critical)' : 'var(--border-color)'"
+    },
+    {
+      "line": 419,
+      "text": "{hasCritical && ("
+    },
+    {
+      "line": 424,
+      "text": "border: '1px solid var(--status-critical)',"
+    },
+    {
+      "line": 427,
+      "text": "CRITICAL"
+    }
+  ],
+  "src\\pages\\PersonnelDashboard.jsx": [
+    {
+      "line": 38,
+      "text": "const [syncProvider, setSyncProvider] = useState('tactical'); // 'tactical' | 'health_connect'"
+    },
+    {
+      "line": 63,
+      "text": "const currentBand = getReadinessBand(currentSoldier.cri);"
+    },
+    {
+      "line": 270,
+      "text": "const categories = ['Friendly Patrol', 'Unknown Contact', 'Enemy Patrol', 'Civilian'];"
+    },
+    {
+      "line": 277,
+      "text": "const isEnemy = g5Contact === 'Enemy Patrol';"
+    },
+    {
+      "line": 315,
+      "text": "if (!sleepHours || !restingHR || !dutyHours || !selectedTerrain || !selectedMission) {"
+    },
+    {
+      "line": 376,
+      "text": "setCalculatedCRI(result.cri);"
+    },
+    {
+      "line": 409,
+      "text": "Tactical Band Link"
+    },
+    {
+      "line": 432,
+      "text": "Composite Readiness Index (CRI)"
+    },
+    {
+      "line": 447,
+      "text": "{/* Radial CRI Gauge */}"
+    },
+    {
+      "line": 459,
+      "text": "strokeDashoffset={2 * Math.PI * 42 * (1 - currentSoldier.cri / 100)}"
+    },
+    {
+      "line": 464,
+      "text": "<span className=\"text-mono\" style={{ fontSize: '22px', fontWeight: 'bold' }}>{currentSoldier.cri}</span>"
+    },
+    {
+      "line": 502,
+      "text": "<th style={{ textAlign: 'center', paddingBottom: 10 }} className=\"text-mono\">CRI</th>"
+    },
+    {
+      "line": 509,
+      "text": "const band = getReadinessBand(hist.cri);"
+    },
+    {
+      "line": 516,
+      "text": "{hist.cri}"
+    },
+    {
+      "line": 519,
+      "text": "{hist.dci}%"
+    },
+    {
+      "line": 555,
+      "text": "<span className=\"text-mono\" style={{ fontSize: '14px', fontWeight: 'bold', color: currentSoldier.wellness?.welfareRisk === 'HIGH RISK' || currentSoldier.wellness?.welfareRisk === 'CRITICAL WELFARE RISK' ? 'var(--status-monitor)' : 'var(--status-ready)' }}>"
+    },
+    {
+      "line": 588,
+      "text": "<span style={{ color: 'var(--text-secondary)' }}>Deployment Status:</span>"
+    },
+    {
+      "line": 592,
+      "text": "<span style={{ color: 'var(--text-secondary)' }}>Last Patrol Duty:</span>"
+    },
+    {
+      "line": 601,
+      "text": "Daily Submissions Limit"
+    },
+    {
+      "line": 605,
+      "text": "<span className=\"text-mono\" style={{ fontWeight: 'bold', color: remainingAssessments <= 0 ? 'var(--status-critical)' : 'var(--text-primary)' }}>"
+    },
+    {
+      "line": 610,
+      "text": "<div style={{ width: `${(todayCount / 4) * 100}%`, height: '100%', background: remainingAssessments <= 0 ? 'var(--status-critical)' : 'var(--accent-cyan)' }}></div>"
+    },
+    {
+      "line": 613,
+      "text": "<div style={{ fontSize: '10px', color: 'var(--status-critical)', marginTop: 8, fontWeight: 'bold' }}>"
+    },
+    {
+      "line": 703,
+      "text": "{currentSoldier.deviceType === 'health_connect' ? 'GOOGLE HEALTH CONNECT INTEGRATION' : 'TACTICAL ENCRYPTED BAND PAIRING'}"
+    },
+    {
+      "line": 727,
+      "text": "{currentSoldier.deviceName || 'Tactical Band v2.4'}"
+    },
+    {
+      "line": 928,
+      "text": "BIOMETRIC PERMISSIONS REQUESTED"
+    },
+    {
+      "line": 1017,
+      "text": "<WifiOff size={36} style={{ color: 'var(--status-critical)' }} />"
+    },
+    {
+      "line": 1019,
+      "text": "<h4 className=\"text-mono\" style={{ fontSize: '14px', marginBottom: 8, color: 'var(--status-critical)' }}>CONNECTION FAILED</h4>"
+    }
+  ],
+  "src\\pages\\WellnessDashboard.jsx": [
+    {
+      "line": 16,
+      "text": "let low = 0, moderate = 0, elevated = 0, high = 0, critical = 0;"
+    },
+    {
+      "line": 25,
+      "text": "else if (band === 'CRITICAL WELFARE RISK') critical++;"
+    },
+    {
+      "line": 28,
+      "text": "return { total: soldiers.length, low, moderate, elevated, high, critical };"
+    },
+    {
+      "line": 42,
+      "text": "case 'CRITICAL WELFARE RISK': return 'var(--status-critical)';"
+    },
+    {
+      "line": 53,
+      "text": "case 'CRITICAL WELFARE RISK': return 'rgba(220, 38, 38, 0.1)';"
+    },
+    {
+      "line": 121,
+      "text": "<div className=\"glass-panel\" style={{ padding: '20px', borderColor: getRiskColor('CRITICAL WELFARE RISK'), background: getRiskBg('CRITICAL WELFARE RISK') }}>"
+    },
+    {
+      "line": 123,
+      "text": "<span className=\"text-mono\" style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>Critical Concern</span>"
+    },
+    {
+      "line": 126,
+      "text": "<h2 className=\"text-mono\" style={{ fontSize: '24px', fontWeight: 'bold', color: getRiskColor('CRITICAL WELFARE RISK') }}>{stats.critical}</h2>"
+    },
+    {
+      "line": 140,
+      "text": "{stats.critical > 0 && <div style={{ width: `${(stats.critical/stats.total)*100}%`, background: getRiskColor('CRITICAL WELFARE RISK') }} title={`Critical Welfare Risk: ${stats.critical}`}></div>}"
+    },
+    {
+      "line": 209,
+      "text": "{(w.welfareRisk === 'HIGH RISK' || w.welfareRisk === 'CRITICAL WELFARE RISK') && ("
+    },
+    {
+      "line": 334,
+      "text": "<strong style={{ color: 'var(--text-primary)' }}>{f.factor}:</strong> {f.description}"
+    },
+    {
+      "line": 352,
+      "text": "<strong style={{ color: 'var(--text-primary)' }}>{f.factor}:</strong> {f.description}"
+    },
+    {
+      "line": 380,
+      "text": "<span style={{ fontSize: '13px', color: 'var(--text-primary)' }}>{selectedSoldier.deploymentHistory?.daysDeployedLast12Months || '--'} days (last 12mo)</span>"
+    },
+    {
+      "line": 388,
+      "text": "<span style={{ fontSize: '13px', color: 'var(--text-primary)' }}>{selectedSoldier.cri || '--'} / 100</span>"
+    }
+  ],
+  "src\\services\\healthConnectService.js": [
+    {
+      "line": 16,
+      "text": "const existing = document.querySelector('script[data-aegis-google-identity]');"
+    },
+    {
+      "line": 22,
+      "text": "const script = document.createElement('script');"
+    },
+    {
+      "line": 24,
+      "text": "script.async = true;"
+    },
+    {
+      "line": 26,
+      "text": "script.dataset.aegisGoogleIdentity = 'true';"
+    },
+    {
+      "line": 28,
+      "text": "script.onerror = () => reject(new Error('Google Identity could not be loaded.'));"
+    },
+    {
+      "line": 29,
+      "text": "document.head.appendChild(script);"
+    },
+    {
+      "line": 49,
+      "text": "callback: (response) => response?.access_token ? resolve(response.access_token) : reject(new Error(response?.error_description || response?.error || 'Google authorization was not completed.')),"
+    }
+  ]
+}

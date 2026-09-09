@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Clean Professional Backgrounds */
+  --bg-primary: #f8fafc;        /* Slate 50 - Very light background */
+  --bg-secondary: #ffffff;      /* Pure White for cards */
+  --bg-tertiary: #f1f5f9;       /* Slate 100 - subtle highlights */
+  
+  --border-color: #e2e8f0;      /* Slate 200 - Soft borders */
+  --border-glow: transparent;
+  
+  /* High contrast text */
+  --text-primary: #0f172a;      /* Slate 900 */
+  --text-secondary: #475569;    /* Slate 600 */
+  --text-muted: #64748b;        /* Slate 500 */
+  
+  /* Restrained Institutional Accent (Teal/Healthcare) */
+  --accent-cyan: #0f766e;       /* Teal 600 */
+  --accent-cyan-glow: rgba(15, 118, 110, 0.1);
+  --accent-hover: #115e59;      /* Teal 700 */
+  
+  /* Status Colors */
+  --status-ready: #059669;       /* Emerald 600 - Healthy/Low Risk */
+  --status-ready-glow: rgba(5, 150, 105, 0.1);
+  
+  --status-teal: #0284c7;        /* Sky 600 - Stable */
+  --status-teal-glow: rgba(2, 132, 199, 0.1);
+  
+  --status-monitor: #d97706;     /* Amber 600 - Elevated Risk */
+  --status-monitor-glow: rgba(217, 119, 6, 0.1);
+  
+  --status-recovery: #ea580c;    /* Orange 600 - High Risk */
+  --status-recovery-glow: rgba(234, 88, 12, 0.1);
+  
+  --status-critical: #dc2626;    /* Red 600 - Critical */
+  --status-critical-glow: rgba(220, 38, 38, 0.1);
+  
+  --glass-bg: #ffffff;
+  --glass-border: #e2e8f0;
+  --glass-blur: none;
+  
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+
+/* Reset and Core Layout */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Remove grid overlays */
+.tech-grid-overlay { display: none !important; }
+.scanline-effect { display: none !important; }
+
+/* Typography styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.25;
+}
+
+/* Redefine text-mono to be tabular sans-serif instead of aggressive hacker terminal font */
+.text-mono {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-feature-settings: "tnum", "cv11";
+  letter-spacing: 0.01em;
+}
+
+/* Clean Professional Cards */
+.glass-panel {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05), 0 1px 2px rgba(15, 23, 42, 0.02);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  z-index: 1;
+}
+
+.glass-panel:hover {
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -1px rgba(15, 23, 42, 0.03);
+}
+
+.glass-panel-glow {
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-cyan);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px var(--accent-cyan-glow);
+  z-index: 1;
+}
+
+/* Restrained critical warnings without aggressive flashing */
+.critical-warning-active {
+  border: 1.5px solid var(--status-critical) !important;
+  background-color: #fef2f2 !important; /* extremely light red */
+}
+
+/* Accent texts */
+.glow-text-cyan {
+  color: var(--accent-cyan);
+  text-shadow: none;
+}
+
+/* Modern Professional Buttons */
+.btn-cyber {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 8px 16px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+.btn-cyber:hover {
+  background: var(--bg-tertiary);
+  border-color: #cbd5e1;
+}
+
+.btn-cyber:active {
+  transform: translateY(1px);
+}
+
+.btn-cyber-primary {
+  background: var(--accent-cyan);
+  color: #ffffff;
+  border: 1px solid var(--accent-cyan);
+  padding: 8px 16px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(15, 118, 110, 0.2);
+}
+
+.btn-cyber-primary:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+/* Institutional Forms */
+.input-cyber {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 10px 12px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.input-cyber:focus {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 0 3px var(--accent-cyan-glow);
+}
+
+.checkbox-cyber {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.checkbox-cyber input {
+  display: none;
+}
+
+.checkbox-cyber .checkmark {
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  background: var(--bg-secondary);
+  transition: all 0.2s ease;
+}
+
+.checkbox-cyber input:checked + .checkmark {
+  background: var(--accent-cyan);
+  border-color: var(--accent-cyan);
+}
+
+.checkbox-cyber input:checked + .checkmark::after {
+  content: '';
+  position: absolute;
+  left: 5.5px;
+  top: 2.5px;
+  width: 5px;
+  height: 9px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
